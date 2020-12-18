@@ -2253,7 +2253,7 @@ h3 {font-size: 1.75rem;}
 /* Intro */
 /* https://webdesignerdepot.s3.amazonaws.com/default-images/25.jpg */
 	#intro {
-		background: url("images/overlay.png"), url("/Users/shanny/Desktop/webDev/light/Gifcoding.gif");
+		background: url("images/overlay.png"), url("https://thumbs.gfycat.com/AjarJaggedClumber-size_restricted.gif");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
