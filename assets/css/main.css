@@ -2284,15 +2284,15 @@ h3 {font-size: 1.75rem;}
 	}
 
 	.carousel-inner {
-		 height: 800px; width: 100%;}
-	.carousel-indicators {filter: invert(100%); padding: 100px; margin-bottom: -100px;}
-	.carousel-control-next-icon {filter: invert(100%); padding-left: 80%}
+		 }
+	.carousel-indicators {filter: invert(100%); }
+	.carousel-control-next-icon {filter: invert(100%); }
 	.carousel-control-prev-icon{filter: invert(100%);}
 	.carousel-caption {filter: invert(100%);}
 
-	.portfolio-box {padding-left:  100px; padding-right: 100px;}
+	.carousel-indicators {position: relative;}
+
 	.project-name {margin-bottom: 100px;}
-	.project-name1-3 {padding-top: 100px;}
 
 
 
