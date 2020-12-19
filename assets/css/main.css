@@ -2283,8 +2283,7 @@ h3 {font-size: 1.75rem;}
 		background: url(""), url("");
 	}
 
-	.carousel-inner {
-		 }
+	.carousel-inner {padding: 5%}
 	.carousel-indicators {filter: invert(100%); }
 	.carousel-control-next-icon {filter: invert(100%); }
 	.carousel-control-prev-icon{filter: invert(100%);}
