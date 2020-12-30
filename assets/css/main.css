@@ -2306,7 +2306,7 @@ h3 {font-size: 1.75rem;}
 
 /* Contact */
 
-.bottom-button {padding-left: 75px; padding-right: 75px;}
+.bottom-button { padding: 10% 75px;}
 
 	#contact {
 		overflow: hidden;
@@ -2323,6 +2323,8 @@ h3 {font-size: 1.75rem;}
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			position: relative;
+			padding: 10%;
+
 		}
 
 		#contact.inactive .box {
