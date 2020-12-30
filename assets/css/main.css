@@ -6,6 +6,17 @@
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
+html{
+cursor: url('https://shanahancolin.github.io/Personal-Site/focus.png'), default;
+}
+li:hover {
+cursor: url('https://shanahancolin.github.io/Personal-Site/smallerFocus.png'), default;
+}
+a:hover {
+cursor: url('https://shanahancolin.github.io/Personal-Site/smallerFocus.png'), default;
+}
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2295,7 +2306,9 @@ h3 {font-size: 1.75rem;}
 
 
 
+
 	.buttons{margin: 20px 0; }
+	.btn:hover { text-shadow:  0 0 10px #33E9FF;}
 
 
 
@@ -2347,6 +2360,4 @@ h3 {font-size: 1.75rem;}
 			#contact .box {
 				padding: 1em 1em 2em 1em;
 			}
-
-
 		}
