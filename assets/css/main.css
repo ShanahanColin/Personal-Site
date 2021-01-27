@@ -6,17 +6,6 @@
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
-html{
-cursor: url('https://shanahancolin.github.io/Personal-Site/focus.png'), default;
-}
-li:hover {
-cursor: url('https://shanahancolin.github.io/Personal-Site/smallerFocus.png'), default;
-}
-a:hover {
-cursor: url('https://shanahancolin.github.io/Personal-Site/smallerFocus.png'), default;
-}
-
-
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -662,7 +651,7 @@ h3 {font-size: 1.75rem;}
 		}
 
 /* Button */
-/*
+
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -689,9 +678,9 @@ h3 {font-size: 1.75rem;}
 		position: relative;
 		text-align: center;
 		text-decoration: none;
-	} */
+	}
 
-		/* input[type="button"].down,
+		input[type="button"].down,
 		input[type="submit"].down,
 		input[type="reset"].down,
 		.button.down,
@@ -705,9 +694,9 @@ h3 {font-size: 1.75rem;}
 			background-repeat: no-repeat;
 			text-indent: -10em;
 			overflow: hidden;
-		} */
+		}
 
-			/* input[type="button"].down.anchored,
+			input[type="button"].down.anchored,
 			input[type="submit"].down.anchored,
 			input[type="reset"].down.anchored,
 			.button.down.anchored,
@@ -717,18 +706,18 @@ h3 {font-size: 1.75rem;}
 				border-radius: 3em 3em 0 0;
 				height: 4.5em;
 				margin-left: -2.5em;
-			} */
+			}
 
-		/* input[type="button"].anchored,
+		input[type="button"].anchored,
 		input[type="submit"].anchored,
 		input[type="reset"].anchored,
 		.button.anchored,
 		button.anchored {
 			position: absolute;
 			left: 50%;
-		} */
+		}
 
-		/* input[type="button"]:hover,
+		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		.button:hover,
@@ -776,7 +765,7 @@ h3 {font-size: 1.75rem;}
 			.button.style2.down,
 			button.style2.down {
 				background-image: url("images/arrow.svg");
-			} */
+			}
 
 /* Form */
 
@@ -1448,7 +1437,6 @@ h3 {font-size: 1.75rem;}
 		max-width: 100%;
 		margin: 0 auto 2em auto;
 	}
-
 		.gallery article {
 			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
@@ -1462,359 +1450,307 @@ h3 {font-size: 1.75rem;}
 			position: relative;
 			opacity: 1.0;
 		}
-
 			.gallery article .image {
 				margin: 0;
 				display: block;
 			}
-
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
 				-webkit-transition-delay: 0.05s;
 				-ms-transition-delay: 0.05s;
 				transition-delay: 0.05s;
 			}
-
 			.gallery article:nth-last-child(2n) {
 				-moz-transition-delay: 0.05s;
 				-webkit-transition-delay: 0.05s;
 				-ms-transition-delay: 0.05s;
 				transition-delay: 0.05s;
 			}
-
 			.gallery article:nth-last-child(2n) {
 				-moz-transition-delay: 0.1s;
 				-webkit-transition-delay: 0.1s;
 				-ms-transition-delay: 0.1s;
 				transition-delay: 0.1s;
 			}
-
 			.gallery article:nth-last-child(3n) {
 				-moz-transition-delay: 0.1s;
 				-webkit-transition-delay: 0.1s;
 				-ms-transition-delay: 0.1s;
 				transition-delay: 0.1s;
 			}
-
 			.gallery article:nth-last-child(3n) {
 				-moz-transition-delay: 0.15s;
 				-webkit-transition-delay: 0.15s;
 				-ms-transition-delay: 0.15s;
 				transition-delay: 0.15s;
 			}
-
 			.gallery article:nth-last-child(4n) {
 				-moz-transition-delay: 0.15s;
 				-webkit-transition-delay: 0.15s;
 				-ms-transition-delay: 0.15s;
 				transition-delay: 0.15s;
 			}
-
 			.gallery article:nth-last-child(4n) {
 				-moz-transition-delay: 0.2s;
 				-webkit-transition-delay: 0.2s;
 				-ms-transition-delay: 0.2s;
 				transition-delay: 0.2s;
 			}
-
 			.gallery article:nth-last-child(5n) {
 				-moz-transition-delay: 0.2s;
 				-webkit-transition-delay: 0.2s;
 				-ms-transition-delay: 0.2s;
 				transition-delay: 0.2s;
 			}
-
 			.gallery article:nth-last-child(5n) {
 				-moz-transition-delay: 0.25s;
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 			}
-
 			.gallery article:nth-last-child(6n) {
 				-moz-transition-delay: 0.25s;
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 			}
-
 			.gallery article:nth-last-child(6n) {
 				-moz-transition-delay: 0.3s;
 				-webkit-transition-delay: 0.3s;
 				-ms-transition-delay: 0.3s;
 				transition-delay: 0.3s;
 			}
-
 			.gallery article:nth-last-child(7n) {
 				-moz-transition-delay: 0.3s;
 				-webkit-transition-delay: 0.3s;
 				-ms-transition-delay: 0.3s;
 				transition-delay: 0.3s;
 			}
-
 			.gallery article:nth-last-child(7n) {
 				-moz-transition-delay: 0.35s;
 				-webkit-transition-delay: 0.35s;
 				-ms-transition-delay: 0.35s;
 				transition-delay: 0.35s;
 			}
-
 			.gallery article:nth-last-child(8n) {
 				-moz-transition-delay: 0.35s;
 				-webkit-transition-delay: 0.35s;
 				-ms-transition-delay: 0.35s;
 				transition-delay: 0.35s;
 			}
-
 			.gallery article:nth-last-child(8n) {
 				-moz-transition-delay: 0.4s;
 				-webkit-transition-delay: 0.4s;
 				-ms-transition-delay: 0.4s;
 				transition-delay: 0.4s;
 			}
-
 			.gallery article:nth-last-child(9n) {
 				-moz-transition-delay: 0.4s;
 				-webkit-transition-delay: 0.4s;
 				-ms-transition-delay: 0.4s;
 				transition-delay: 0.4s;
 			}
-
 			.gallery article:nth-last-child(9n) {
 				-moz-transition-delay: 0.45s;
 				-webkit-transition-delay: 0.45s;
 				-ms-transition-delay: 0.45s;
 				transition-delay: 0.45s;
 			}
-
 			.gallery article:nth-last-child(10n) {
 				-moz-transition-delay: 0.45s;
 				-webkit-transition-delay: 0.45s;
 				-ms-transition-delay: 0.45s;
 				transition-delay: 0.45s;
 			}
-
 			.gallery article:nth-last-child(10n) {
 				-moz-transition-delay: 0.5s;
 				-webkit-transition-delay: 0.5s;
 				-ms-transition-delay: 0.5s;
 				transition-delay: 0.5s;
 			}
-
 			.gallery article:nth-last-child(11n) {
 				-moz-transition-delay: 0.5s;
 				-webkit-transition-delay: 0.5s;
 				-ms-transition-delay: 0.5s;
 				transition-delay: 0.5s;
 			}
-
 			.gallery article:nth-last-child(11n) {
 				-moz-transition-delay: 0.55s;
 				-webkit-transition-delay: 0.55s;
 				-ms-transition-delay: 0.55s;
 				transition-delay: 0.55s;
 			}
-
 			.gallery article:nth-last-child(12n) {
 				-moz-transition-delay: 0.55s;
 				-webkit-transition-delay: 0.55s;
 				-ms-transition-delay: 0.55s;
 				transition-delay: 0.55s;
 			}
-
 			.gallery article:nth-last-child(12n) {
 				-moz-transition-delay: 0.6s;
 				-webkit-transition-delay: 0.6s;
 				-ms-transition-delay: 0.6s;
 				transition-delay: 0.6s;
 			}
-
 			.gallery article:nth-last-child(13n) {
 				-moz-transition-delay: 0.6s;
 				-webkit-transition-delay: 0.6s;
 				-ms-transition-delay: 0.6s;
 				transition-delay: 0.6s;
 			}
-
 			.gallery article:nth-last-child(13n) {
 				-moz-transition-delay: 0.65s;
 				-webkit-transition-delay: 0.65s;
 				-ms-transition-delay: 0.65s;
 				transition-delay: 0.65s;
 			}
-
 			.gallery article:nth-last-child(14n) {
 				-moz-transition-delay: 0.65s;
 				-webkit-transition-delay: 0.65s;
 				-ms-transition-delay: 0.65s;
 				transition-delay: 0.65s;
 			}
-
 			.gallery article:nth-last-child(14n) {
 				-moz-transition-delay: 0.7s;
 				-webkit-transition-delay: 0.7s;
 				-ms-transition-delay: 0.7s;
 				transition-delay: 0.7s;
 			}
-
 			.gallery article:nth-last-child(15n) {
 				-moz-transition-delay: 0.7s;
 				-webkit-transition-delay: 0.7s;
 				-ms-transition-delay: 0.7s;
 				transition-delay: 0.7s;
 			}
-
 			.gallery article:nth-last-child(15n) {
 				-moz-transition-delay: 0.75s;
 				-webkit-transition-delay: 0.75s;
 				-ms-transition-delay: 0.75s;
 				transition-delay: 0.75s;
 			}
-
 			.gallery article:nth-last-child(16n) {
 				-moz-transition-delay: 0.75s;
 				-webkit-transition-delay: 0.75s;
 				-ms-transition-delay: 0.75s;
 				transition-delay: 0.75s;
 			}
-
 			.gallery article:nth-last-child(16n) {
 				-moz-transition-delay: 0.8s;
 				-webkit-transition-delay: 0.8s;
 				-ms-transition-delay: 0.8s;
 				transition-delay: 0.8s;
 			}
-
 			.gallery article:nth-last-child(17n) {
 				-moz-transition-delay: 0.8s;
 				-webkit-transition-delay: 0.8s;
 				-ms-transition-delay: 0.8s;
 				transition-delay: 0.8s;
 			}
-
 			.gallery article:nth-last-child(17n) {
 				-moz-transition-delay: 0.85s;
 				-webkit-transition-delay: 0.85s;
 				-ms-transition-delay: 0.85s;
 				transition-delay: 0.85s;
 			}
-
 			.gallery article:nth-last-child(18n) {
 				-moz-transition-delay: 0.85s;
 				-webkit-transition-delay: 0.85s;
 				-ms-transition-delay: 0.85s;
 				transition-delay: 0.85s;
 			}
-
 			.gallery article:nth-last-child(18n) {
 				-moz-transition-delay: 0.9s;
 				-webkit-transition-delay: 0.9s;
 				-ms-transition-delay: 0.9s;
 				transition-delay: 0.9s;
 			}
-
 			.gallery article:nth-last-child(19n) {
 				-moz-transition-delay: 0.9s;
 				-webkit-transition-delay: 0.9s;
 				-ms-transition-delay: 0.9s;
 				transition-delay: 0.9s;
 			}
-
 			.gallery article:nth-last-child(19n) {
 				-moz-transition-delay: 0.95s;
 				-webkit-transition-delay: 0.95s;
 				-ms-transition-delay: 0.95s;
 				transition-delay: 0.95s;
 			}
-
 			.gallery article:nth-last-child(20n) {
 				-moz-transition-delay: 0.95s;
 				-webkit-transition-delay: 0.95s;
 				-ms-transition-delay: 0.95s;
 				transition-delay: 0.95s;
 			}
-
 			.gallery article:nth-last-child(20n) {
 				-moz-transition-delay: 1s;
 				-webkit-transition-delay: 1s;
 				-ms-transition-delay: 1s;
 				transition-delay: 1s;
 			}
-
 			.gallery article:nth-last-child(21n) {
 				-moz-transition-delay: 1s;
 				-webkit-transition-delay: 1s;
 				-ms-transition-delay: 1s;
 				transition-delay: 1s;
 			}
-
 			.gallery article:nth-last-child(21n) {
 				-moz-transition-delay: 1.05s;
 				-webkit-transition-delay: 1.05s;
 				-ms-transition-delay: 1.05s;
 				transition-delay: 1.05s;
 			}
-
 			.gallery article:nth-last-child(22n) {
 				-moz-transition-delay: 1.05s;
 				-webkit-transition-delay: 1.05s;
 				-ms-transition-delay: 1.05s;
 				transition-delay: 1.05s;
 			}
-
 			.gallery article:nth-last-child(22n) {
 				-moz-transition-delay: 1.1s;
 				-webkit-transition-delay: 1.1s;
 				-ms-transition-delay: 1.1s;
 				transition-delay: 1.1s;
 			}
-
 			.gallery article:nth-last-child(23n) {
 				-moz-transition-delay: 1.1s;
 				-webkit-transition-delay: 1.1s;
 				-ms-transition-delay: 1.1s;
 				transition-delay: 1.1s;
 			}
-
 			.gallery article:nth-last-child(23n) {
 				-moz-transition-delay: 1.15s;
 				-webkit-transition-delay: 1.15s;
 				-ms-transition-delay: 1.15s;
 				transition-delay: 1.15s;
 			}
-
 			.gallery article:nth-last-child(24n) {
 				-moz-transition-delay: 1.15s;
 				-webkit-transition-delay: 1.15s;
 				-ms-transition-delay: 1.15s;
 				transition-delay: 1.15s;
 			}
-
 		.gallery.inactive article {
 			opacity: 0;
 		}
-
 			.gallery.inactive article.from-left {
 				-moz-transform: translateX(-14em);
 				-webkit-transform: translateX(-14em);
 				-ms-transform: translateX(-14em);
 				transform: translateX(-14em);
 			}
-
 			.gallery.inactive article.from-right {
 				-moz-transform: translateX(14em);
 				-webkit-transform: translateX(14em);
 				-ms-transform: translateX(14em);
 				transform: translateX(14em);
 			}
-
 			.gallery.inactive article.from-top {
 				-moz-transform: translateY(-7em);
 				-webkit-transform: translateY(-7em);
 				-ms-transform: translateY(-7em);
 				transform: translateY(-7em);
 			}
-
 			.gallery.inactive article.from-bottom {
 				-moz-transform: translateY(7em);
 				-webkit-transform: translateY(7em);
@@ -2306,9 +2242,7 @@ h3 {font-size: 1.75rem;}
 
 
 
-
 	.buttons{margin: 20px 0; }
-	.btn:hover { text-shadow:  0 0 10px #33E9FF;}
 
 
 
@@ -2319,7 +2253,7 @@ h3 {font-size: 1.75rem;}
 
 /* Contact */
 
-.bottom-button { padding: 10% 75px;}
+.bottom-button {padding-left: 75px; padding-right: 75px;}
 
 	#contact {
 		overflow: hidden;
@@ -2336,8 +2270,6 @@ h3 {font-size: 1.75rem;}
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			position: relative;
-			padding: 10%;
-
 		}
 
 		#contact.inactive .box {
@@ -2360,4 +2292,6 @@ h3 {font-size: 1.75rem;}
 			#contact .box {
 				padding: 1em 1em 2em 1em;
 			}
+
+
 		}
